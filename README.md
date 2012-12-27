@@ -23,6 +23,8 @@ mkdir hello-1.0
 
 mv data hello.cpp hello.pro hello-1.0
 
+cd hello-1.0
+
 After finished, execute dh\_make command. Answer to the questions which dh\_make ask:
 
 dh\_make --createorig --single -e yyhoo2.young@gmail.com -c gpl
