@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 27 Dec 2012 22:53:06 +0800
+Source: hello
+Binary: hello
+Architecture: source i386
+Version: 1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: mutse <yyhoo2.young@gmail.com>
+Changed-By: mutse <yyhoo2.young@gmail.com>
+Description: 
+ hello      - <insert up to 60 chars description>
+Changes: 
+ hello (1.0-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1: 
+ dd1bedd6738b72a179ee0d1f1f4387652e4e4b67 776 hello_1.0-1.dsc
+ 088fbaf92642b981e93937c625976e461f54ac47 2271 hello_1.0.orig.tar.gz
+ b97a8c25fa020454472145d3ac2db14d3377b3c0 1781 hello_1.0-1.debian.tar.gz
+ 675f3e2492eefb959934075d41dc79dbb6d40e4e 6332 hello_1.0-1_i386.deb
+Checksums-Sha256: 
+ 3a0113eb4c81201c94dd0c66a80eba77bd034e466850c1c0b87fda541a498d5c 776 hello_1.0-1.dsc
+ 4441f2622fa578fd17ab5d442771da20562864c9d20ce62e34d0d2c349dcb2c3 2271 hello_1.0.orig.tar.gz
+ 7c9a63008fbc23b6a1b7e1809f78a130420e651ac3c97fa357a95e5c3202b8b7 1781 hello_1.0-1.debian.tar.gz
+ 2f968b0e9b3bacae4084b850c80e1ea2dd95fe80988a2ffa621b07d6b3549523 6332 hello_1.0-1_i386.deb
+Files: 
+ db085400362cc010e647a8c40ebe1980 776 unknown extra hello_1.0-1.dsc
+ 18b3b17ec59db8394faed3914672dd35 2271 unknown extra hello_1.0.orig.tar.gz
+ d5ad8be4954430c0c6cc52bb27198416 1781 unknown extra hello_1.0-1.debian.tar.gz
+ 93aafe65d58cbc1e51b8d22fa7a123b6 6332 unknown extra hello_1.0-1_i386.deb
