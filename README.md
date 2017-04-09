@@ -8,16 +8,16 @@ Setting
 
 At first, you should download the necessay tools via apt-get:
 
-$ sudo apt-get install build-essential devscripts ubuntu-dev-tools debhelper dh-make diff patch gnupg fakeroot lintian pbuilder
+    $ sudo apt-get install build-essential devscripts ubuntu-dev-tools debhelper dh-make diff patch gnupg fakeroot lintian pbuilder
 
 How to build
 =======
 
-$ cd hello-1.0
+    $ cd hello-1.0
 
 Please execute debuild command:
 
-$ debuild
+    $ debuild
 
 you can get deb package successfully.
 
