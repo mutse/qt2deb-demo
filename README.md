@@ -8,28 +8,18 @@ Setting
 
 At first, you should download the necessay tools via apt-get:
 
-sudo apt-get install build-essential devscripts ubuntu-dev-tools debhelper dh-make diff patch gnupg fakeroot lintian pbuilder
+$ sudo apt-get install build-essential devscripts ubuntu-dev-tools debhelper dh-make diff patch gnupg fakeroot lintian pbuilder
 
-Usage
-======
+How to build
+=======
 
-Then untar hello\_1.0.orig.tar.gz:
+$ cd hello-1.0
 
-tar -xzvf hello\_1.0.orig.tar.gz
+Please execute debuild command:
 
-Create the directory hello-1.0 and move .cpp, .pro & data into it.
+$ debuild
 
-mkdir hello-1.0
-
-mv data hello.cpp hello.pro hello-1.0
-
-cd hello-1.0
-
-After finished, execute dh\_make command. Answer to the questions which dh\_make ask:
-
-dh\_make --createorig --single -e yyhoo2.young@gmail.com -c gpl
-
-Execute debuild command, you can get deb package successfully at last.
+you can get deb package successfully.
 
 Have a fun! ^\_^//
 

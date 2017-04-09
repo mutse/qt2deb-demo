@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Qt Hello World Demo
+GenericName=Qt Hello demo
+Comment=show a demo of Qt4
+Icon=/usr/share/pixmaps/hello.png
+Exec=hello
+Terminal=false
+Type=Application
+Categories=Qt;Utility;
+X-Ayatana-Desktop-Shortcuts = Hello
+
+[Hello Shortcut Group]
+Name = Hello
+Exec = hello
+TargetEnvironment = Unity

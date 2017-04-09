@@ -1,0 +1,15 @@
+Source: hello
+Section: utils
+Priority: extra
+Maintainer: mutse <yyhoo2.young@gmail.com>
+Build-Depends: debhelper (>= 9), qt5-qmake, qt5-default, qtbase5-dev
+Standards-Version: 3.9.2
+Homepage: https://github.com/mutse/qt2deb-demo
+#Vcs-Git: git://git.debian.org/collab-maint/hello.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/hello.git;a=summary
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: qt2deb Demo
+ This a demo to show how to packaging a qt5 app.
